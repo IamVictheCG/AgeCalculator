@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="ageCalculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="birthDate">
+            <div class="date">
+                <label for="day">Day</label>
+                <input placeholder="DD" name="day" type="text" id="day">
+                <p class="single Warning">Must be a valid day</p>
+            </div>
+            
+            <div class="date">
+                <label for="month">Month</label>
+                <input placeholder="MM" type="text" name="month" id="month">
+                <p class="single Warning">Must be a valid month</p>
+            </div>
+            
+            <div class="date">
+                <label for="year">Year</label>
+                <input placeholder="YYYY" type="text" name="year" id="year">
+                <p class="single Warning">Must be a valid year</p>
+            </div>
+        </div>
+        <p class="general Warning">Must be a valid date</p>
+
+    
+        <hr>
+    
+        <div class="imageCon" id="button">
+            <img src="icon-arrow.svg" alt="downArrow">
+        </div>
+    
+        <div class="age">
+            <p><span id="ageYears">--</span> years</p>
+            <p><span id="ageMonths">--</span> months</p>
+            <p id="span3"><span id="ageDays">--</span> days</p>
+        </div>
+
+        <footer>
+            <p>BU/23C/IT/9479</p>
+            <p>BU/23C/IT/9359</p>
+            <p>BU/23C/IT/9424</p>
+        </footer>
+    </div>
+
+    <script src="ageCalculator.js"></script>
+
+</body>
+</html>
